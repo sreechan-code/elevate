@@ -199,7 +199,8 @@ if df is not None:
     st.text(classification_report(y_test, y_pred))
 
 else:
-    st.write("Please upload a CSV or Excel file or input data to proceed.")import streamlit as st
+    st.write("Please upload a CSV or Excel file or input data to proceed.")
+import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.naive_bayes import GaussianNB
